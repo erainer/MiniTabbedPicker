@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		A1634433203E60A8002283F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1634432203E60A8002283F1 /* AppDelegate.swift */; };
-		A1634435203E60A8002283F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1634434203E60A8002283F1 /* ViewController.swift */; };
 		A1634438203E60A8002283F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1634436203E60A8002283F1 /* Main.storyboard */; };
 		A163443A203E60A8002283F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1634439203E60A8002283F1 /* Assets.xcassets */; };
 		A163443D203E60A8002283F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A163443B203E60A8002283F1 /* LaunchScreen.storyboard */; };
+		A1634445203E6290002283F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1634444203E6290002283F1 /* LoginViewController.swift */; };
+		A163444920411CFD002283F1 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163444820411CFD002283F1 /* CreateViewController.swift */; };
+		A163444D2041F924002283F1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163444C2041F924002283F1 /* WelcomeViewController.swift */; };
+		A163444F2041FEFD002283F1 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163444E2041FEFD002283F1 /* SocialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A163442F203E60A8002283F1 /* miniTabbedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniTabbedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1634432203E60A8002283F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1634434203E60A8002283F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1634437203E60A8002283F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1634439203E60A8002283F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A163443C203E60A8002283F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A163443E203E60A8002283F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1634444203E6290002283F1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A163444820411CFD002283F1 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		A163444C2041F924002283F1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A163444E2041FEFD002283F1 /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				A1634432203E60A8002283F1 /* AppDelegate.swift */,
-				A1634434203E60A8002283F1 /* ViewController.swift */,
 				A1634436203E60A8002283F1 /* Main.storyboard */,
 				A1634439203E60A8002283F1 /* Assets.xcassets */,
 				A163443B203E60A8002283F1 /* LaunchScreen.storyboard */,
 				A163443E203E60A8002283F1 /* Info.plist */,
+				A1634444203E6290002283F1 /* LoginViewController.swift */,
+				A163444820411CFD002283F1 /* CreateViewController.swift */,
+				A163444C2041F924002283F1 /* WelcomeViewController.swift */,
+				A163444E2041FEFD002283F1 /* SocialViewController.swift */,
 			);
 			path = miniTabbedApp;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1634435203E60A8002283F1 /* ViewController.swift in Sources */,
+				A163444F2041FEFD002283F1 /* SocialViewController.swift in Sources */,
+				A163444D2041F924002283F1 /* WelcomeViewController.swift in Sources */,
+				A163444920411CFD002283F1 /* CreateViewController.swift in Sources */,
+				A1634445203E6290002283F1 /* LoginViewController.swift in Sources */,
 				A1634433203E60A8002283F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
